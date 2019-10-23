@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>arrrays</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="prac.js"></script>
+
+    </head>
+    <body>
+        <script>
+            var alphabets = ["A", "B", "C"];
+            var rand = Math.random();
+            console.log(rand);
+            var alphabeType = alphabets[rand];
+            //condition1
+            if (alphabets == "A"){
+                document.write("Amatch");
+            }
+            else{
+                document.write("not Amatch");
+            }
+            condition 2
+            if(alphabets == "A" || alphabets == "B"){
+                document.write("First Two");
+            }
+            else{
+                document.write("not First Two");
+            }
+            // key position of B
+            document.write(alphabets.indexOf("B"));
+            // length of the array
+            document.write(alphabets.length);
+
+        </script>
+
+    </body>
+</html>
